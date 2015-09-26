@@ -1,0 +1,16 @@
+v1.0.1
+Fixed Bug - Packet Location would be miscalculated over 2+ years if "Warp Packet
+            (Half Speed in First Year)" was selected.
+
+Fixed Bug - Clicking on "Stay On Top" checkbox would reset packet locations and speed
+
+Fixed Bug - Calculating several years travel beyond reference point, when distance was an
+            exact multiple of warp speed would cause a divide by zero error.
+
+Fixed Bug - Calculating several years travel beyond reference point, using method
+            A->?->B resulted in a mis-calculation
+
+Added Feature - Program Now calulates the time till impact of object
+
+v1.0 
+First Release
